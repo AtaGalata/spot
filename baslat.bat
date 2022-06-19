@@ -2,6 +2,6 @@ color a
 title bruteforce
 echo off
 cls
-python deneme.py
+python spot.py
 :a
 goto a

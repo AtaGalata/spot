@@ -3,12 +3,10 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 import os, time
 #GEREKLİ YER BAŞ
-#ad = input("Adınızı Giriniz : ")
-#sifre = input("Olmasını İstediğiniz Sifreyi Giriniz : ")
+ad = input("Adınızı Giriniz : ")
+sifre = input("Olmasını İstediğiniz Sifreyi Giriniz : ")
 dt_gün = "07"
 dt_yıl = "1975"
-ad = "Ayberk"
-sifre = "buolmaksifre"
 dt_gün = "07"
 chromePath ="chromedriver.exe"
 driver = webdriver.Chrome(executable_path=chromePath)
